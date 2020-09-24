@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_date">
+        <item>모든날짜조회</item>
+        <item>2020-09-01</item>
+        <item>2020-09-02</item>
+        <item>2020-09-03</item>
+        <item>2020-09-04</item>
+        <item>2020-09-05</item>
+        <item>2020-09-06</item>
+        <item>2020-09-07</item>
+        <item>2020-09-08</item>
+        <item>2020-09-09</item>
+        <item>2020-09-10</item>
+        <item>2020-09-11</item>
+        <item>2020-09-12</item>
+        <item>2020-09-13</item>
+        <item>2020-09-14</item>
+        <item>2020-09-15</item>
+        <item>2020-09-16</item>
+        <item>2020-09-17</item>
+        <item>2020-09-18</item>
+        <item>2020-09-19</item>
+        <item>2020-09-20</item>
+        <item>2020-09-21</item>
+        <item>2020-09-22</item>
+        <item>2020-09-23</item>
+        <item>2020-09-24</item>
+        <item>2020-09-25</item>
+        <item>2020-09-26</item>
+        <item>2020-09-27</item>
+        <item>2020-09-28</item>
+        <item>2020-09-29</item>
+        <item>2020-09-30</item>
+    </string-array>
+</resources>
