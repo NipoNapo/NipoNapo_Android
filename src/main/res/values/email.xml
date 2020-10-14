@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="E_mail">
+
+        <item>gmail.com </item>
+        <item>daum.net </item>
+        <item>naver.com</item>
+        <item>hotmail.com </item>
+        <item>nate.com </item>
+        <item>사용자 입력</item>
+
+    </string-array>
+
+</resources>
