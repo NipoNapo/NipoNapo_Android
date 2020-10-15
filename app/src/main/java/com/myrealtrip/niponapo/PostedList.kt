@@ -1,4 +1,4 @@
-package com.example.niponapo_3
+package com.example.niponapo
 
 import android.widget.Button
 import java.util.*
