@@ -1,4 +1,4 @@
-package com.example.niponapo_3
+package com.example.niponapo
 
 import retrofit2.Call
 import retrofit2.http.Field
