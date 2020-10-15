@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.userinfo.UserinfoFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+
+
+
+            <TableRow
+                android:id="@+id/tableRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/save_btn_msg"
+                    android:layout_width="216dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:textColor="#4CAF50" />
+
+                <ImageButton
+                    android:id="@+id/save_btn"
+                    android:layout_width="46dp"
+                    android:layout_height="match_parent"
+                    android:src="@android:drawable/ic_menu_save" />
+
+            </TableRow>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:id="@+id/ic_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ic_id" />
+
+                    <TextView
+                        android:id="@+id/uif_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/uif_id"
+                        android:textAlignment="viewStart"
+                        android:textColor="#000000" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp">
+
+                    <TextView
+                        android:id="@+id/ic_pw1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ic_pw1" />
+
+                    <EditText
+                        android:id="@+id/uif_pw1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPassword" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp">
+
+                    <TextView
+                        android:id="@+id/ic_pw2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ic_pw2" />
+
+                    <EditText
+                        android:id="@+id/uif_pw2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPassword" />
+                </TableRow>
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Space
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/pw_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pw_msg" />
+                </TableRow>
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="401dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp">
+
+                    <TextView
+                        android:id="@+id/ic_name"
+                        android:layout_width="54dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/ic_name" />
+
+                    <TextView
+                        android:id="@+id/uif_name"
+                        android:layout_width="71dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/uif_name"
+                        android:textAlignment="viewStart" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/TableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                tools:ignore="MissingConstraints">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/ic_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ic_email" />
+
+                    <EditText
+                        android:id="@+id/email_id"
+                        android:layout_width="82dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/uif_at"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/uif_at" />
+
+                    <Spinner
+                        android:id="@+id/email_spinner"
+                        android:layout_width="141dp"
+                        android:layout_height="match_parent" />
+
+                </TableRow>
+
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/email_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/email_chcek" />
+
+                    <TextView
+                        android:id="@+id/email_check_msg"
+                        android:layout_width="182dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/email_chcek_msg"
+                        android:textColor="#FF7A7A" />
+                </TableRow>
+
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp">
+
+                    <TextView
+                        android:id="@+id/ic_idol"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/ic_idol" />
+
+                    <Spinner
+                        android:id="@+id/idol_spinner"
+                        android:layout_width="141dp"
+                        android:layout_height="match_parent" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp">
+
+                    <TextView
+                        android:id="@+id/ic_option"
+                        android:layout_width="72dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/ic_option" />
+
+                    <Button
+                        android:id="@+id/option_btn1"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF"
+                        android:text="@string/option_btn1" />
+
+                    <Button
+                        android:id="@+id/option_btn2"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF"
+                        android:text="@string/option_btn2" />
+
+                    <Button
+                        android:id="@+id/option_btn3"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF"
+                        android:text="@string/option_btn3" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Space
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/option_btn4"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:text="@string/option_btn4" />
+
+                    <Button
+                        android:id="@+id/option_btn5"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:background="#FFFFFF"
+                        android:text="@string/option_btn5" />
+
+                    <TextView
+                        android:id="@+id/optin_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/option_msg" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/text_userinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
